@@ -24,6 +24,7 @@ export default {
           text: this.text,
           comleted: false,
         });
+        this.text = '';
         this.$refs.addForm.reset();
       }
     },

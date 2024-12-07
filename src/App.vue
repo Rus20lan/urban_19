@@ -10,7 +10,7 @@
 
 <script>
 import TodoList from '@/components/TodoList';
-const todos = [{ id: 1, text: 'First', comleted: true }];
+const todos = [];
 export default {
   name: 'App',
   components: {
